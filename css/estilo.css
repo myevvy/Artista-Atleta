@@ -1,0 +1,219 @@
+@font-face {
+     font-family: 'trial-black';
+     src: url('SFT-Ritam-Sans-TRIAL-Black.ttf') format('truetype');
+  }
+
+@font-face {
+     font-family: 'trial-semi-bold';
+     src: url('SFT-Ritam-Sans-TRIAL-Bold.ttf') format(truetype);
+}
+
+@font-face {
+     font-family: 'tt-pro-trial';
+     src: url('TT\ Interphases\ Pro\ Trial\ Regular.ttf') format(truetype);
+}
+
+@font-face {
+     font-family: 'tt-condensed';
+     src: url('TT\ Interphases\ Pro\ Trial\ Condensed\ DemiBold.ttf') format(truetype);
+}
+
+* { /* reset*/
+     margin: 0;
+}
+
+body {
+     background-image: url('../imagens/background-home.JPG');
+     background-size: cover;
+     position: relative;
+     background-repeat: no-repeat; /* Recomendado para evitar repetição */
+     max-height: 200px;
+     width: 100%;
+}
+
+
+.topo {
+     background-color: #faea75;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+     padding: 20px;
+  
+}
+
+.topo .texto-esquerda{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+     
+     
+}
+
+.titulo-verde {
+     font-size: larger;
+     font-family: 'trial-black';
+     color: #109e5c;
+     margin-top: 10px;
+     margin-left: 100px;
+}
+
+.titulo-azul {
+     font-weight: bolder;
+     font-family: 'trial-semi-bold';
+     color: #39329c;
+     margin-left: 100px;
+}
+
+
+.topo img{
+     width: 150px;
+     height: 80px;
+     margin-right: 50px;
+     margin-top: -60px;
+}
+
+#logo-direita {
+     display: block;
+     text-align: right;
+     width: 100%;
+ }
+
+
+
+
+
+#descricao {
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+     font-size: medium;
+     justify-content: center;
+}
+
+
+#titulo-amarelo {
+      font-family: 'trial-semi-bold';
+      font-size: xx-large;
+      color: #e4d141;
+      text-align: center;
+}
+
+#subtitulo-do-amarelo {
+     font-family: 'tt-pro-trial';
+     font-size: x-large;
+     font-weight: 600;
+     text-align: center;
+     color: #ffffff;
+}
+ 
+#texto-home {
+     margin-top: 40px;
+     font-family: 'tt-condensed';
+     font-weight: 500;
+     font-size: larger;
+     text-align: center;
+     margin-left: 350px;
+     margin-right: 350px;
+     color: #ffffff;
+}
+
+#imagens-padrao {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;  
+}
+
+#artista-home {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: absolute;
+     margin-left: -380px;
+     margin-bottom: -200px;
+
+}
+
+#atleta-home {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: absolute;
+     margin-right: -355px;
+     margin-bottom: -200px;
+
+}
+
+.titulo-foto-home {
+     font-family: 'trial-semi-bold';
+     color: #39329c;
+     font-size: 24px;
+     margin-top: 10px;
+}
+
+.botao-link{
+     font-family: 'trial-semi-bold';
+     font-size: 15px;
+     margin-top: 20px;
+     text-align: center;
+     width: 150px;
+     height: 20px;
+     padding: 5px;
+     background-color: #faea75;
+     border-radius: 30px;
+     text-decoration: none;
+     color: #39329c;
+}
+
+.rodape-principal {
+     display: flex;
+     flex-direction: column;
+    background-color: #109e5c;
+    margin-top: 100px;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    
+}
+
+#logo-e-links{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+}
+
+.titulo-amarelo {
+     font-size: larger;
+     font-family: 'trial-black';
+     color: #faea75;
+     margin-left: 100px;
+
+}
+
+.rodape-botoes {
+     font-weight: bolder;
+     justify-items: right;
+     margin-right: 100px;
+     font-weight: bolder;
+     font-family: 'trial-semi-bold';
+     margin-left: 100px;
+     color: #faea75;
+} 
+
+.rodape-botoes ul, li{
+     list-style-type: none;
+}
+.direitos-reservados {
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     width: 100%;
+     font-family: 'trial-semi-bold';
+     color: #39329c; 
+     margin-top: 40px;   
+}
