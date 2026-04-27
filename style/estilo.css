@@ -208,6 +208,14 @@ body {
 .rodape-botoes ul, li{
      list-style-type: none;
 }
+
+.link {
+     text-decoration: none;
+     color: #faea75;
+}
+
+
+
 .direitos-reservados {
      display: flex;
      text-align: center;
