@@ -214,6 +214,10 @@ body {
      color: #faea75;
 }
 
+.link:hover {
+     cursor: pointer;
+}
+
 
 
 .direitos-reservados {
