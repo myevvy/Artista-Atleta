@@ -26,7 +26,7 @@ body {
      background-image: url('../imagens/background-home.jpg');
      background-size: cover;
      position: relative;
-     background-repeat: no-repeat; /* Recomendado para evitar repetição */
+     background-repeat: no-repeat; 
      max-height: 200px;
      width: 100%;
 }
