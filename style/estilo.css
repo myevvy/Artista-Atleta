@@ -18,11 +18,13 @@
      src: url('TT\ Interphases\ Pro\ Trial\ Condensed\ DemiBold.ttf') format(truetype);
 }
 
-* { /* reset*/
+
+/*PÁGINA HOME*/
+* {
      margin: 0;
 }
 
-body {
+#home {
      background-image: url('../imagens/background-home.jpg');
      background-size: cover;
      position: relative;
@@ -89,6 +91,7 @@ body {
      margin-top: 50px;
      font-size: medium;
      justify-content: center;
+     color: white;
 }
 
 
@@ -115,7 +118,7 @@ body {
      text-align: center;
      margin-left: 350px;
      margin-right: 350px;
-     color: #ffffff;
+     color: white;
 }
 
 #imagens-padrao {
@@ -160,7 +163,7 @@ body {
      margin-top: 20px;
      text-align: center;
      width: 150px;
-     height: 20px;
+     height: 30px;
      padding: 5px;
      background-color: #faea75;
      border-radius: 30px;
@@ -227,5 +230,266 @@ body {
      width: 100%;
      font-family: 'trial-semi-bold';
      color: #39329c; 
-     margin-top: 40px;   
+     margin-top: 40px; 
+     font-weight: bold;  
 }
+
+/*PÁGINA BIO MOMO*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#bio-momo {
+  background-color: #ffde38;
+}
+
+
+.header {
+  background: none;
+  width: 100%;
+  height: 500px;
+  background-image: url('../imagens/momo-bio.png');
+  background-size: cover;
+  color: #1a134f;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.botao-voltar {
+     background-color: #ffffffaf;
+     color: #1a134f;
+     text-decoration: none;
+     margin-left: 20px;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.bio-texto {
+  max-width: 50%;
+  padding: 30px;
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.bio-texto .nome {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+
+.social-label {
+     margin-top:20px;
+     font-size: 25px;
+}
+
+
+.social-icons img {
+     width: 40px;
+     height: 40px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: -25px 0 40px 0; 
+  margin-top: 50px;
+}
+
+.nav-botao-active {
+  padding: 12px 35px;
+  border-radius: 25px;
+  border: none;
+  background-color: #1a134f;
+  color: #ffde38;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-botao-active.active {
+  background-color: #27a639; 
+  color: white;
+}
+
+.card-filtros {
+  padding: 0 10%;
+  color: #1a134f;
+}
+
+.section {
+  display: none;
+  animation: fadeIn 0.5s;
+}
+
+.section.active {
+  display: block; 
+  text-align: right; 
+}
+
+.section .section-titulo {
+  font-size: 2.5rem;
+  color: #27a639;
+  margin-bottom: 15px;
+}
+
+.section#galeria.active {
+  text-align: left;
+}
+
+.premios-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px 1fr;
+  gap: 25px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.premios-list.premios-list-left li {
+     text-align: right;
+}
+.premios-list.premios-list-right li {
+     text-align: left;
+}
+
+.premios-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.premios-list li {
+  color: #1a134f;
+  padding: 12px 16px;
+  border-radius: 18px;
+  font-weight: 600;
+}
+
+.premios-image-card {
+
+  border-radius: 28px;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+}
+
+.premios-image-card img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+
+  object-fit: cover;
+}
+
+.galeria-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.galeria-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 15px;
+  width: 220px;
+}
+
+.galeria-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  background-color: #f4f4f4;
+  border-radius: 18px;
+}
+
+.gallery-button {
+  background-color: #1a134f;
+  color: #ffde38;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 18px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.gallery-button.active,
+.gallery-button:hover {
+  background-color: #27a639;
+  color: white;
+}
+
+.galeria-textos {
+  display: grid;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria-text {
+  display: none;
+  border-radius: 22px;
+  padding: 20px;
+  font-size: 18px;
+  color: #1a134f;
+}
+
+.galeria-text.active {
+  display: block;
+}
+
+.section#carreira.active {
+     display: flex;
+     flex-direction: row;
+}
+
+#carreira img {
+     background-color: white;
+     width: 150px;
+     height: auto;
+     margin-right: 30px;
+}
+
+
+
+#carreira p {
+     text-align: left;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

@@ -1,11 +1,157 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Momo</title>
-</head>
-<body>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Momo Hirai - Portfolio</title>
+    <link rel="stylesheet" href="../style/estilo.css" />
+  </head>
+  <body id="bio-momo">
+    <div class="header">
+      <a href="../index.html" class="botao-voltar">← voltar</a>
+      <div class="header-card">
+        <div class="bio-texto">
+          <p class="nome">MOMO</p>
+          <p>
+            Momo Hirai, conhecida mundialmente apenas como Momo, é uma cantora, compositora e dançarina japonesa que se tornou um dos maiores nomes da indústria do K-pop. Nascida em Kyotanabe, Kyoto, sua jornada é marcada por uma disciplina férrea e um talento natural que a elevou ao posto de dançarina principal do grupo TWICE, formado pela JYP Entertainment.
+          </p>
+
+          <div class="social-icons">
+            <p class="social-label">Redes Sociais da Artista:</p>
+            <a href="https://www.instagram.com/momo" target="_blank"><img src="../imagens/instagram.svg" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="../imagens/tiktok.svg" alt="TikTok"></a>
+            <a href="#" target="_blank"><img src="../imagens/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <button class="nav-botao-active" onclick="showSection('carreira', this)">
+        Carreira
+      </button>
+      <button class="nav-botao-active" onclick="showSection('galeria', this)">
+        Galeria
+      </button>
+      <button class="nav-botao-active" onclick="showSection('premios', this)">
+        Prêmios
+      </button>
+      <button class="nav-botao-active" onclick="showSection('videos', this)">
+        Vídeos
+      </button>
+    </div>
+
+    <div class="card-filtros">
+      <div id="carreira" class="section active">
+        <div id="imagem-carreira">
+          <img src="#" alt="gif-momo">
+        </div>
+
+        <div id="textos-carreiras">
+          <p class="section-titulo">Carreira</p>
+          <p>A trajetória de Momo Hirai é definida por uma resiliência rara. Natural de Quioto, no Japão, ela foi descoberta pela JYP após um vídeo de dança viralizar. Em 2015, após uma eliminação emocionante no reality Sixteen, foi trazida de volta pelo próprio J.Y. Park, que a considerou indispensável para o TWICE.
+Desde o debut, Momo consolidou-se como a "Dancing Machine" da indústria, elevando o nível técnico das coreografias de K-pop. Em anos recentes, expandiu seu impacto ao estrear na sub-unit MISAMO e tornar-se embaixadora global de marcas de luxo como a Miu Miu.
+Hoje, em 2026, Momo transcende a música: é uma referência de disciplina e performance, provando que sua volta ao jogo foi o ponto de virada para se tornar uma das artistas mais completas do cenário mundial.</p>
+        </div>
+        
+      </div>
+
+      <div id="galeria" class="section">
+        <div class="galeria-grid">
+          <div class="galeria-card">
+            <img src="../imagens/momo1.jpg" alt="imagem1">
+            <p>Era de Debut</p>
+            <button class="gallery-button" onclick="showGalleryText(1, this)">Descrição</button>
+          </div>
+          <div class="galeria-card">
+            <img src="../imagens/momo2.jpg" alt="imagem2">
+            <p>Foto tirada em Aeroportos</p>
+            <button class="gallery-button" onclick="showGalleryText(2, this)">Descrição</button>
+          </div>
+          <div class="galeria-card">
+            <img src="../imagens/momo3.jpg" alt="imagem3">
+            <p>Patrocinador MIUMIU</p>
+            <button class="gallery-button" onclick="showGalleryText(3, this)">Descrição</button>
+          </div>
+        </div>
+
+        <div class="galeria-textos">
+          <div id="galeria-text-1" class="galeria-text">
+            <p>A jornada de Momo no reality SIXTEEN é um dos arcos mais marcantes do K-pop. Considerada a melhor dançarina entre as trainees, 
+              ela sofreu uma eliminação precoce que chocou as outras participantes e o público. No entanto, mesmo fora da competição, Momo manteve uma disciplina impecável, 
+              continuando seus treinos diários na JYP por conta própria.Essa dedicação foi recompensada no episódio final: em uma reviravolta histórica, J.Y. Park decidiu
+               adicioná-la ao TWICE como a última integrante, justificando que o grupo precisava da sua performance excepcional e de sua ética de trabalho. Assim, ela passou 
+               de eliminada à peça indispensável do grupo.</p>
+          </div>
+          <div id="galeria-text-2" class="galeria-text">
+            <p>Desde sua estreia, a trajetória de Momo no TWICE foi marcada por uma evolução que a levou de especialista em dança a uma artista completa e versátil. Inicialmente apresentada como a "Dancing Machine" do grupo, ela consolidou rapidamente sua posição como uma das melhores performances da indústria, entregando precisão e força em coreografias que se tornaram virais no mundo todo.
+
+Com o passar dos anos, sua evolução vocal e presença de palco ganharam novas camadas. Momo passou a explorar diferentes registros, destacando-se não apenas no rap e no canto, mas também na composição de letras para o grupo. Sua confiança floresceu à medida que o TWICE transitou de conceitos vibrantes para estilos mais maduros e elegantes, permitindo que ela mostrasse uma versatilidade artística que vai muito além da técnica. Hoje, como parte da unit MISAMO e através de suas atividades globais, ela personifica a resiliência de quem transformou o esforço constante em um domínio absoluto do palco.</p>
+          </div>
+          <div id="galeria-text-3" class="galeria-text">
+            <p>A relação de Momo com o sucesso é traduzida em uma prateleira cheia de conquistas e em um portfólio de marcas de luxo que disputam sua imagem. Como parte do TWICE, ela coleciona dezenas de prêmios de prestígio, incluindo múltiplos Daesangs (prêmios principais) e troféus de "Best Dance Performance", que validam sua soberania nos palcos.
+
+Fora deles, seu impacto global a transformou em uma "it-girl" cobiçada pelo mercado de alto padrão. Atualmente, ela é o rosto de marcas icônicas como a Miu Miu, onde atua como embaixadora transmitindo sofisticação e modernidade, e a Onitsuka Tiger, que reflete seu lado urbano e dinâmico. Além disso, Momo expandiu sua influência para o mercado de beleza e joias, sendo embaixadora da marca de cosméticos Wonjungyo e parceira da luxuosa Tasaki. Essa transição de competidora no SIXTEEN para uma figura influente no mundo da moda prova que seu valor artístico transcende a música, tornando-a um ícone de estilo e rentabilidade global.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="premios" class="section">
+        <div class="premios-grid">
+          <div class="premios-list premios-list-left">
+            <ul>
+              <li>MAMA Awards - Música do Ano (2016)</li>
+              <li>MAMA Awards - Música do Ano (2017)</li>
+              <li>MAMA Awards - Música do Ano (2018)</li>
+              <li>Melon Music Awards (MMA) - Música do Ano (2016)</li>
+              <li>Billboard Women in Music - Breakthrough Award (2023)</li>
+              <li>Asia Artist Awards (AAA) - Artista do Ano (2019)</li>
+            </ul>
+          </div>
+          <div class="premios-image-card">
+            <img src="../imagens/premio.png" alt="premio">
+          </div>
+          <div class="premios-list premios-list-right">
+            <ul>
+              <li>Asia Artist Awards – Artista do Ano (2019)</li>
+              <li>Asia Artist Awards – Artista do Ano (2020)</li>
+              <li>Billboard Women in Music – Breakthrough Award (2023)</li>
+              <li>Japan Gold Disc Awards – Melhor Álbum da Ásia (2024)</li>
+              <li>American Music Awards – Best Female K-Pop Artist (2026 - Nomeação)</li>
+              <li>Seoul Music Awards – Bonsang (2026)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="videos" class="section">
+        <p class="section-titulo">Vídeos</p>
+        <p>Confira os MVs e Focus Cams mais populares.</p>
+      </div>
+    </div>
+
+    <div class="rodape-principal">
+     <div id="logo-e-links">
+          <div id="so-pra-testar"> <!--coloquei id só p testar-->
+      
+             <p class="titulo-amarelo">MOMO X MARTA</p>
+             <p class="titulo-azul">ESTÁDIO SHOW</p>
+           </div>
+
+            <div class="rodape-botoes">
+              <ul>
+                 <li><a href="index.html" class="link">HOME</a></li>
+                 <li><a href="bios/momo.html" class="link">ARTISTA</a></li>
+                 <li><a href="#" class="link">ATLETA</a></li>
+              </ul>
+           </div>
+      </div>
     
-</body>
+     <div class="direitos-reservados">
+        <p>	&#169 2026 - Todos os direitos reservados.</p>
+     </div>
+  </div>
+
+
+    <script src="../js/script.js"></script>
+  </body>
 </html>
