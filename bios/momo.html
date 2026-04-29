@@ -17,9 +17,9 @@
 
           <div class="social-icons">
             <p class="social-label">Redes Sociais da Artista:</p>
-            <a href="https://www.instagram.com/momo" target="_blank"><img src="../imagens/instagram.svg" alt="Instagram"></a>
-            <a href="#" target="_blank"><img src="../imagens/tiktok.svg" alt="TikTok"></a>
-            <a href="#" target="_blank"><img src="../imagens/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.instagram.com/momo" target="_blank"><img src="../files/imagens/instagram.svg" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="../files/imagens/tiktok.svg" alt="TikTok"></a>
+            <a href="#" target="_blank"><img src="../files/imagens/twitter.svg" alt="Twitter"></a>
           </div>
         </div>
       </div>
@@ -43,12 +43,12 @@
     <div class="card-filtros">
       <div id="carreira" class="section active">
         <div id="imagem-carreira">
-          <img src="#" alt="gif-momo">
+          <img src="../files/gifs/gifmomo.gif" alt="gif-momo">
         </div>
 
         <div id="textos-carreiras">
           <p class="section-titulo">Carreira</p>
-          <p>A trajetória de Momo Hirai é definida por uma resiliência rara. Natural de Quioto, no Japão, ela foi descoberta pela JYP após um vídeo de dança viralizar. Em 2015, após uma eliminação emocionante no reality Sixteen, foi trazida de volta pelo próprio J.Y. Park, que a considerou indispensável para o TWICE.
+          <p class="section-texto">A trajetória de Momo Hirai é definida por uma resiliência rara. Natural de Quioto, no Japão, ela foi descoberta pela JYP após um vídeo de dança viralizar. Em 2015, após uma eliminação emocionante no reality Sixteen, foi trazida de volta pelo próprio J.Y. Park, que a considerou indispensável para o TWICE.
 Desde o debut, Momo consolidou-se como a "Dancing Machine" da indústria, elevando o nível técnico das coreografias de K-pop. Em anos recentes, expandiu seu impacto ao estrear na sub-unit MISAMO e tornar-se embaixadora global de marcas de luxo como a Miu Miu.
 Hoje, em 2026, Momo transcende a música: é uma referência de disciplina e performance, provando que sua volta ao jogo foi o ponto de virada para se tornar uma das artistas mais completas do cenário mundial.</p>
         </div>
@@ -58,17 +58,17 @@ Hoje, em 2026, Momo transcende a música: é uma referência de disciplina e per
       <div id="galeria" class="section">
         <div class="galeria-grid">
           <div class="galeria-card">
-            <img src="../imagens/momo1.jpg" alt="imagem1">
+            <img src="../files/imagens/momo1.jpg" alt="imagem1">
             <p>Era de Debut</p>
             <button class="gallery-button" onclick="showGalleryText(1, this)">Descrição</button>
           </div>
           <div class="galeria-card">
-            <img src="../imagens/momo2.jpg" alt="imagem2">
+            <img src="../files/imagens/momo2.jpg" alt="imagem2">
             <p>Foto tirada em Aeroportos</p>
             <button class="gallery-button" onclick="showGalleryText(2, this)">Descrição</button>
           </div>
           <div class="galeria-card">
-            <img src="../imagens/momo3.jpg" alt="imagem3">
+            <img src="../files/imagens/momo3.jpg" alt="imagem3">
             <p>Patrocinador MIUMIU</p>
             <button class="gallery-button" onclick="showGalleryText(3, this)">Descrição</button>
           </div>
@@ -108,7 +108,7 @@ Fora deles, seu impacto global a transformou em uma "it-girl" cobiçada pelo mer
             </ul>
           </div>
           <div class="premios-image-card">
-            <img src="../imagens/premio.png" alt="premio">
+            <img src="../files/imagens/premio.png" alt="premio">
           </div>
           <div class="premios-list premios-list-right">
             <ul>
@@ -124,14 +124,19 @@ Fora deles, seu impacto global a transformou em uma "it-girl" cobiçada pelo mer
       </div>
 
       <div id="videos" class="section">
-        <p class="section-titulo">Vídeos</p>
-        <p>Confira os MVs e Focus Cams mais populares.</p>
+        <p id="section-titulo-video">Vídeos</p>
+        <p id="section-texto-video">Confira os MVs e Focus Cams mais populares.</p>
+        <div id="card-videos">
+           <video src="../files/videos/video-momo-1.mp4" controls></video>
+           <video src="../files/videos/video-momo-2.mp4" controls></video>
+        </div>
+       
       </div>
     </div>
 
     <div class="rodape-principal">
      <div id="logo-e-links">
-          <div id="so-pra-testar"> <!--coloquei id só p testar-->
+          <div id="rodape-texto">
       
              <p class="titulo-amarelo">MOMO X MARTA</p>
              <p class="titulo-azul">ESTÁDIO SHOW</p>
@@ -139,9 +144,9 @@ Fora deles, seu impacto global a transformou em uma "it-girl" cobiçada pelo mer
 
             <div class="rodape-botoes">
               <ul>
-                 <li><a href="index.html" class="link">HOME</a></li>
-                 <li><a href="bios/momo.html" class="link">ARTISTA</a></li>
-                 <li><a href="#" class="link">ATLETA</a></li>
+                 <li><a href="../index.html" class="link">HOME</a></li>
+                 <li><a href="momo.html" class="link">ARTISTA</a></li>
+                 <li><a href="marta.html" class="link">ATLETA</a></li>
               </ul>
            </div>
       </div>

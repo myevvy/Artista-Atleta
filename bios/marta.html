@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Marta - Portfolio</title>
+    <link rel="stylesheet" href="../style/estilo.css" />
+  </head>
+  <body id="bio-marta">
+    <div class="header">
+      <a href="../index.html" class="botao-voltar">← voltar</a>
+      <div class="header-card">
+        <div class="bio-texto">
+          <p class="nome">MARTA</p>
+          <p>
+            Marta, conhecida mundialmente apenas como Marta, é uma atleta brasileira que se tornou uma das maiores nomes do futebol feminino. Nascida em São Paulo, sua jornada é marcada por uma disciplina férrea e um talento natural que a elevou ao posto de jogadora principal do time, formado pela Federação Brasileira de Futebol.
+          </p>
+
+          <div class="social-icons">
+            <p class="social-label">Redes Sociais da Artista:</p>
+            <a href="#" target="_blank"><img src="../files/imagens/instagram.svg" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="../files/imagens/tiktok.svg" alt="TikTok"></a>
+            <a href="#" target="_blank"><img src="../files/imagens/twitter.svg" alt="Twitter"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <button class="nav-botao-active" onclick="showSection('carreira', this)">
+        Carreira
+      </button>
+      <button class="nav-botao-active" onclick="showSection('galeria', this)">
+        Galeria
+      </button>
+      <button class="nav-botao-active" onclick="showSection('premios', this)">
+        Prêmios
+      </button>
+      <button class="nav-botao-active" onclick="showSection('videos', this)">
+        Vídeos
+      </button>
+    </div>
+
+    <div class="card-filtros">
+      <div id="carreira" class="section active">
+        <div id="imagem-carreira">
+          <img src="../files/gifs/gifmarta.gif" alt="gif-marta">
+        </div>
+
+        <div id="textos-carreiras">
+          <p class="section-titulo">Carreira</p>
+          <p class="section-texto"></p>
+        </div>
+        
+      </div>
+
+      <div id="galeria" class="section">
+        <div class="galeria-grid">
+          <div class="galeria-card">
+            <img src="" alt="imagem1">
+            <p></p>
+            <button class="gallery-button" onclick="showGalleryText(1, this)">Descrição</button>
+          </div>
+          <div class="galeria-card">
+            <img src="../files/imagens/marta2.jpg" alt="imagem2">
+            <p></p>
+            <button class="gallery-button" onclick="showGalleryText(2, this)">Descrição</button>
+          </div>
+          <div class="galeria-card">
+            <img src="../files/imagens/marta3.jpg" alt="imagem3">
+            <p></p>
+            <button class="gallery-button" onclick="showGalleryText(3, this)">Descrição</button>
+          </div>
+        </div>
+
+        <div class="galeria-textos">
+          <div id="galeria-text-1" class="galeria-text">
+            <p></p>
+          </div>
+          <div id="galeria-text-2" class="galeria-text">
+            <p></p>
+          </div>
+          <div id="galeria-text-3" class="galeria-text">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="premios" class="section">
+        <div class="premios-grid">
+          <div class="premios-list premios-list-left">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="premios-image-card">
+            <img src="../files/imagens/premio.png" alt="premio">
+          </div>
+          <div class="premios-list premios-list-right">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="videos" class="section">
+        <p id="section-titulo-video">Vídeos</p>
+        <p id="section-texto-video">Confira os melhores vídeos da carreira de Marta.</p>
+        <div id="card-videos">
+           <video src="../files/videos/video-marta-1.mp4" controls></video>
+           <video src="../files/videos/video-marta-2.mp4" controls></video>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="rodape-principal">
+     <div id="logo-e-links">
+          <div id="rodape-texto"> 
+      
+             <p class="titulo-amarelo">MOMO X MARTA</p>
+             <p class="titulo-azul">ESTÁDIO SHOW</p>
+           </div>
+
+            <div class="rodape-botoes">
+              <ul>
+                 <li><a href="../index.html" class="link">HOME</a></li>
+                 <li><a href="momo.html" class="link">ARTISTA</a></li>
+                 <li><a href="marta.html" class="link">ATLETA</a></li>
+              </ul>
+           </div>
+      </div>
+    
+     <div class="direitos-reservados">
+        <p>	&#169 2026 - Todos os direitos reservados.</p>
+     </div>
+  </div>
+
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
