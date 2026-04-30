@@ -252,11 +252,25 @@
 }
 
 
-.header {
+.header-momo {
   background: none;
   width: 100%;
   height: 500px;
   background-image: url('../files/imagens/momo-bio.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 650px;
+  color: #1a134f;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-marta {
+  background: none;
+  width: 100%;
+  height: 500px;
+  background-image: url('../files/imagens/background_marta.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100% 650px;
@@ -291,17 +305,20 @@
   padding: 30px;
   border-radius: 25px;
   color: #ffffff;
+  font-family: 'tt-condensed';
 }
 
 .bio-texto .nome {
   font-size: 3rem;
   margin-bottom: 10px;
+  font-family: 'trial-black';
 }
 
 
 .social-label {
      margin-top:20px;
      font-size: 25px;
+     font-family: 'trial-semi-bold';
 }
 
 
@@ -356,6 +373,7 @@
   font-size: 2.5rem;
   color: #27a639;
   margin-bottom: 15px;
+  font-family: 'trial-semi-bold';
 }
 
 .section#galeria.active {
@@ -473,6 +491,7 @@
 .section#carreira.active {
      display: flex;
      flex-direction: row;
+     margin-top: 100px;
 }
 
 #carreira img {
@@ -498,13 +517,20 @@
      color: #27a639;
      text-align: center;
      margin-bottom: 15px;
+     font-family: 'trial-semi-bold';
 }
 
 #videos #section-texto-video {
      font-size: 18px;
      color: #1a134f;
+     font-family: 'tt-condensed';
+
      text-align: center;
      margin-bottom: 30px;
+}
+
+#videos {
+     margin-top: 60px;
 }
 
 #card-videos {
